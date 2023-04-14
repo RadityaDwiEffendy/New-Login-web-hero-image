@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;550;650;900&display=swap" rel="stylesheet">    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />">
+</head>
+<body>
+    <div class="navbar">
+        <p><span>Code</span> Cademy</p>
+
+        <div class="nav-link">
+            <a href="#catalog">Catalog</a>
+            <a href="#start">Resources</a>
+            <a href="">Community</a>
+            <a href="">Pricing</a>
+            <a href="">Business Solution</a>
+
+        </div>
+
+        <div class="search">
+            <img src="img/magnifying-glass.png" alt="">
+            <button>Log in</button>
+        </div>
+
+        
+    </div>
+
+
+<div id="hero">
+    <div class="isi">
+        <img src="img/Gambar-5-Gambar-Sketsa-Terpilih-Produk-1-Sumber-Penulis-2020.jpg" alt="">
+    </div>
+
+    <div class="ke2">
+        <p class="pp">Join the millions learning to <br> code with Codecademy for free</p>
+
+        <div class="eml">
+            <p>Email</p>
+            <input type="email" id="usser">
+            <p id="wrong1">Please enter a valid email address.</p>
+        </div>
+        <div class="pw">
+            <p>Password</p>
+            <input type="password" id="pass">
+            <p id="wrong">Password must include at least 8 characters.</p>
+        </div>
+        <button class="btn" onclick="signup()">Sign in</button>
+
+        <div class="koki">
+            <p>By signing up for Codecademy, you agree to Codecademy's <br> <a href="https://policies.google.com/terms?hl=en-US">Terms of Service</a> & <a href="">Privacy Policy</a>.</p>
+        </div>
+        
+
+        <div class="ig">
+            <p class="using">Or sign up using:</p>
+
+            <button>ig</button>
+            <button>link in</button>
+            <button>fb</button>
+            <button>kcng</button>
+
+        </div>
+    </div>
+</div>
+
+<section id="catalog">
+        <div class="tulis">
+            <p>Start Learning</p>
+        </div>
+        <div class="tulis2">
+            <p>Popular Courses</p>
+        </div>
+
+        <div class="free">
+            <button id="freee" onclick="free()">Free</button>
+            <button id="newt" onclick="newt()">New To Coding</button>
+            <button id="most" oncanplay="most()">Most Popular</button>
+            <button id="skill" onclick="skill()">Skill Path</button>
+            <button id="carir" onclick="carir()">Carrer Path</button>
+
+        </div>
+
+        <div class="hr">
+            <hr>
+        </div>
+
+        <!-- course -->
+
+        <div id="course">
+            <div class="course-isi">
+                <div class="course-nav">
+                    <p>Free Course</p>
+                </div>
+                <div class="navlink">
+                    <p id="jspin">Learn JavaScript</p>
+
+                    <p id="jspin1">Choosing a <br> Programming Language</p>
+                    <p id="learnhow">Learn how to use JavaScript — a powerful and flexible programming language for adding website </p>
+
+                    <p id="learnhow1">This course will introduce learners to factors to consider when picking a first language as well as describe some popular options. </p>
+
+                </div>
+                <div class="footernav">
+                    <img src="img/bar-chart.png" alt="">
+                    <p><span>Beginer</span> Friendly</p>
+                    <p><span>11</span> lessons</p>
+                </div>
+            </div>
+
+            <div class="course-isi">
+                <div class="course-nav">
+                    <p>Free Course</p>
+                </div>
+                <div class="navlink">
+                    <p id="jspina">Learn JavaScript</p>
+
+                    <p id="jspin2">Choosing a <br> Programming Language</p>
+
+                    <p id="learnhowb">Learn how to use JavaScript — a powerful and flexible programming language for adding website </p>
+
+                    <p id="learnhow2">This course will introduce learners to factors to consider when picking a first language as well as describe some popular options. </p>
+                </div>
+                <div class="footernav">
+                    <img src="img/bar-chart.png" alt="">
+                    <p><span>Beginer</span> Friendly</p>
+                    <p><span>11</span> lessons</p>
+                </div>
+            </div>
+
+            <div class="course-isi">
+                <div class="course-nav">
+                    <p>Free Course</p>
+                </div>
+                <div class="navlink">
+                    <p id="jspinc">Learn JavaScript</p>
+
+                    <p id="jspin3">Choosing a <br> Programming Language</p>
+
+                    <p id="learnhowd">Learn how to use JavaScript — a powerful and flexible programming language for adding website </p>
+
+                    <p id="learnhow3">This course will introduce learners to factors to consider when picking a first language as well as describe some popular options. </p>
+                </div>
+                <div class="footernav">
+                    <img src="img/bar-chart.png" alt="">
+                    <p><span>Beginer</span> Friendly</p>
+                    <p><span>11</span> lessons</p>
+                </div>
+            </div>
+
+            <div class="course-isi">
+                <div class="course-nav">
+                    <p>Free Course</p>
+                </div>
+                <div class="navlink">
+                    <p id="jspine">Learn JavaScript</p>
+
+                    <p id="jspin4">Choosing a <br> Programming Language</p>
+
+                    <p id="learnhowf">Learn how to use JavaScript — a powerful and flexible programming language for adding website </p>
+                    
+                    <p id="learnhow4">This course will introduce learners to factors to consider when picking a first language as well as describe some popular options. </p>
+                </div>
+                <div class="footernav">
+                    <img src="img/bar-chart.png" alt="">
+                    <p><span>Beginer</span> Friendly</p>
+                    <p><span>11</span> lessons</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="btn-catalog">
+            <button id="explore">Explore Full Catalog</button>
+        </div>
+
+        <!-- 2 -->
+
+
+        <!-- color -->
+
+</section>
+<!-- 2 -->
+
+
+
+<section id="start">
+
+    <div class="notsure">
+        <p>Not sure where <br> to start?</p>
+        <p>This short quiz will sort you out. Answer a <br> few simple questions to get personal career <br> advice and course recommendations.</p>
+        
+
+        <button>Take The Quiz</button>
+
+        <img src="img/cendela.svg" alt="">
+
+    </div>
+
+</section>
+
+
+<section id="stories">
+
+    <div class="real">
+        <h1>Stories from real people</h1>
+
+        <div class="more">
+            <p>Watch and read stories from the Codecademy community.</p>
+            <button>Explore more stories -></button>
+        </div>
+
+
+        <div class="imegg">
+        <div class="imgprofil">
+            <img src="img/OIP.jpeg" alt="">
+            <p>Taking a different path: One Team Lead's story</p>
+            <p>Giacomo S., Team Lead, Lond</p>
+            </div>
+
+            <div class="imgprofil">
+                <img src="img/OIP.jpeg" alt="">
+                <p>Taking a different path: One Team Lead's story</p>
+                <p>Giacomo S., Team Lead, Lond</p>
+            </div>
+
+            <div class="imgprofil">
+                <img src="img/OIP.jpeg" alt="">
+                <p>Taking a different path: One Team Lead's story</p>
+                <p>Giacomo S., Team Lead, Lond</p>
+            </div>
+
+            <div class="imgprofil">
+                <img src="img/OIP.jpeg" alt="">
+                <p>Taking a different path: One Team Lead's story</p>
+                <p>Giacomo S., Team Lead, Lond</p>
+            </div>
+        </div>
+
+        
+    </div>
+
+</section>
+
+<section id="join">
+    <div class="big">
+
+        <div class="join">
+            <p>Join in on something big</p>
+        </div>
+
+        <div class="learn50m">
+            <p>50M</p>
+            <p>Learners</p>
+        </div>
+
+        <div class="country">
+            <p>190+</p>
+            <p> Countries</p>
+
+        </div>
+
+        <div class="tiga-b">
+            <p>3.7B</p>
+            <p>Code Submits</p>
+        </div>
+    </div>
+</section>
+
+<div class="levelup">
+    <div class="tema-skill">
+
+        <div class="cad">
+            <p>Code Cademy</p>
+            <p>form skillsoft</p>
+        </div>
+
+        <div class="gip">
+            <p>Level up your team's skills</p>
+
+            <p>Give your team the knowledge, experience, and confidence they need to tackle any problem.</p>
+
+            <button>Explore business plans</button>
+        </div>
+
+        <img src="img/a07f01c47acd236db2c717c148698e1f.svg" alt="">
+    </div>
+</div>
+
+<div class="signup-forfree">
+    <div class="img-welek">
+        <img src="img/4d1f9782b0f3c8516e4bbee474e4152e.webp" alt="">
+
+        <div class="fro">
+            <p>Start for free</p>
+            <p>If you’ve made it this far, you must be at least a little curious. Sign up and take the first step toward your goals.</p>
+            <button>Sign up</button>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    <div class="company">
+        <a href="">Company</a>
+
+        <div class="crr">
+            <p>About</p>
+            <p>Career</p>
+            <p>Affiliates</p>
+        </div>
+    </div>
+
+    <div class="Resources">
+        <a href="">Resources</a>
+
+        <div class="crr">
+            <p>Articles</p>
+            <p>Blog</p>
+            <p>Cheatsheets</p>
+            <p>Code challenges</p>
+            <p>Docs</p>
+            <p>Projects</p>
+            <p>Videos</p>
+            <p>Workspaces</p>
+        </div>
+
+        <div class="Support">
+            <a href="">Support</a>
+    
+            <div class="crr">
+                <p>Help center</p>
+            </div>
+
+
+        </div>
+    </div>    
+
+    <div class="plans">
+        <a href="">plans</a>
+
+        <div class="crr">
+            <p>Paid memberships</p>
+            <p>For students</p>
+            <p>Business solutions</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
